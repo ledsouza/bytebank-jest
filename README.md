@@ -1,70 +1,26 @@
-# Getting Started with Create React App
+# Bytebank Automated Tests
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Static Badge](https://img.shields.io/badge/Status-Finalizado-green)
 
-## Available Scripts
+This project is a set of automated tests for a simple financial web application named Bytebank, developed using Jest and React Testing Library. The application allows users to perform transactions such as transfers and deposits.
 
-In the project directory, you can run:
+## Technologies Used:
 
-### `npm start`
+* JavaScript
+* React
+* Jest
+* React Testing Library
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Detailed Description:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+This project focuses on implementing automated tests for the Bytebank application. The primary goal is to ensure the application's functionality and user interface work as expected.
 
-### `npm test`
+**Key Features:**
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* **Component Testing:** Tests are written for individual components, such as the transaction form and navigation menu, to verify their behavior in isolation.
+* **User Interaction Simulation:** The tests simulate user interactions like filling forms, clicking buttons, and navigating between pages using React Testing Library.
+* **Business Logic Testing:**  The project includes tests for the `calculaNovoSaldo` function, which is responsible for calculating the new balance after a deposit or transfer.
 
-### `npm run build`
+**Contribution:**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Feel free to contribute to this project! You can open issues to report bugs, suggest improvements, or submit pull requests with your own modifications.
