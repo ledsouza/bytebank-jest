@@ -8,7 +8,7 @@ test('Deve renderizar o mesmo componente com props atualizadas', () => {
     valor: 100,
   };
   const { rerender } = render(
-    <Transacoes estilos={estilos} transacao={transacao} />,
+    <Transacoes estilos={estilos} transacao={transacao} />
   );
   const tipoTransacao = screen.getByTestId('tipoTransacao');
   const valorTransacao = screen.getByTestId('valorTransacao');
@@ -20,6 +20,7 @@ test('Deve renderizar o mesmo componente com props atualizadas', () => {
     transacao: 'Transferência',
     valor: 50,
   };
+
   rerender(<Transacoes estilos={estilos} transacao={novaTransacao} />);
   const novoTipoTransacao = screen.getByTestId('tipoTransacao');
   const novoValorTransacao = screen.getByTestId('valorTransacao');

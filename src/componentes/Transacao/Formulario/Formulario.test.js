@@ -9,13 +9,13 @@ describe('Deve renderizar um campo de input', () => {
     expect(campoTexto).toBeInTheDocument();
   });
 
-  test('com o type number', () => {
+  test(' com o type number', () => {
     render(<Formulario />);
     const campoTexto = screen.getByPlaceholderText('Digite um valor');
     expect(campoTexto).toHaveAttribute('type', 'number');
   });
 
-  test('que pode ser preenchido', () => {
+  test(' que pode ser preenchido', () => {
     render(<Formulario />);
     const campoTexto = screen.getByPlaceholderText('Digite um valor');
     userEvent.type(campoTexto, '50');
